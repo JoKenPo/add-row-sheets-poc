@@ -7,7 +7,7 @@ First, the script imports the GoogleSpreadsheet class and the credential.json fi
 
 The addRow function is an asynchronous function that creates a new instance of the GoogleSpreadsheet class and uses the useServiceAccountAuth method to authenticate with the Google Sheets API using the credential.json file. Then, the loadInfo method is called to load the information about the spreadsheet.
 
-After that, the sheet constant is set to the "Billing" sheet of the spreadsheet. Finally, the addRow method of the sheet object is called with an object containing the values for the new row. In this case, the values are "Edwin Lopez" for the "name" column and "edwin.lopez@zenvia.com" for the "email" column.
+After that, the sheet constant is set to the "Billing" sheet of the spreadsheet. Finally, the addRow method of the sheet object is called with an object containing the values for the new row.
 
 Note that the addRow method is also an asynchronous method, so the await keyword is used to wait for the method to complete before the script exits.
 
